@@ -1,0 +1,61 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Mulish", sans-serif;
+}
+/* default styles */
+.container{
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 1rem;
+}
+.h3{
+    font-size: 36px;
+    color:black ;
+    font-weight:800 ;
+    line-height: normal;
+    
+}
+.span{
+    color: rgb(255, 84, 0);
+}
+
+ p, li{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal ;
+    
+
+}
+ /* Nvbar section sart heres  */
+    .nav-bar{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        width: 280px;
+    }
+    .logo img{
+        width: 48px;
+        height: 56px;
+        margin-right: 0.5rem;
+    }
+    .nav-option{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3rem;
+    }
+    .nav-option p{
+        cursor: pointer;
+    }
+ /* Nvbar section ends heres  */
+
